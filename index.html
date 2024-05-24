@@ -442,9 +442,11 @@
       </svg>
       <h2 class="dialog-title">Вставьте дискету, чтобы продолжить</h2>
     </div>
-    <button type="button" onclick="window['dialog-id'].close()" aria-controls="dialog-id" class="dialog-button">
-      <span class="dialog-button__text">OK</span>
-    </button>
+    <form method="dialog">
+      <button type="button" onclick="window['dialog-id'].close()" aria-controls="dialog-id" class="dialog-button">
+        <span class="dialog-button__text">OK</span>
+      </button>
+    </form>
   </dialog>
   <script src="./scripts/like.js"></script>
 </body>
