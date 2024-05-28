@@ -251,8 +251,8 @@
 .cards-list__image-label {
   position: absolute;
   z-index: 1;
-  top: 23px;
-  right: 13px;
+  top: 24px;
+  right: 25px;
   font-family: var(--font-pressStart2P), Copperplate, Papyrus, fantasy;
   font-size: 14px;
   font-weight: 400;
@@ -348,8 +348,8 @@
 
 .dialog[open] {
   width: 100%;
-  max-width: 341px;
-  padding: 30px 40px;
+  max-width: 357px;
+  padding: 30px;
   background: var(--background-color);
   border: 2px solid var(--accent-color);
 }
